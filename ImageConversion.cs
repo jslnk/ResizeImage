@@ -8,7 +8,8 @@ using System.Text;
 namespace ResizeImage
 {
     class ImageConversion
-    {  //this resizes an image by percentage 
+    {  
+        //this resizes an image by percentage 
         public static bool resizeImage1(String imageFilePath, int width, int height, string destinationPath, int quality)
         {
 
@@ -45,7 +46,6 @@ namespace ResizeImage
 
             return SaveJpeg(destinationPath, (Image)b, quality);
         }
-
 
 
 
@@ -122,9 +122,7 @@ namespace ResizeImage
         /// Saves an image as a jpeg image, with the given quality 
         /// </summary> 
         /// <param name="path">Path to which the image would be saved.</param> 
-        // <param name="quality">An integer from 0 to 100, with 100 being the 
-        /// highest quality</param> 
-        //public static void SaveJpeg(string path, Image img, int quality, int width, int height)
+        /// <param name="quality">An integer from 0 to 100, with 100 being the highest quality</param>         
         private static bool SaveJpeg(string path, Image img, int quality)
         {
             bool returnValue = false;
@@ -171,27 +169,6 @@ namespace ResizeImage
                     return codecs[i];
             return null;
         }
-
-
-
-
-
-        //public static void resizeImage(string fileName, int width, int height)
-        //{
-        //    Image oldImage = Image.FromFile(fileName);
-        //    Image thumb = new Bitmap(width, height, System.Drawing.Imaging.PixelFormat.Format24bppRgb) ;
-        //    Graphics oGraphic = Graphics.FromImage(thumb);
-
-        //    oGraphic.CompositingQuality = CompositingQuality.HighSpeed;
-        //    oGraphic.SmoothingMode = SmoothingMode.HighSpeed;
-        //    oGraphic.InterpolationMode = InterpolationMode.Low;
-
-        //    Rectangle rect = new Rectangle(0, 0, width, height);
-        //    oGraphic.DrawImage(oldImage, rect);
-        //    thumb.Save(fileName, ImageFormat.Jpeg);
-
-        //}
-
 
     }
 }
