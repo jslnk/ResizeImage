@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizeImage", "ResizeImage.csproj", "{23E83DD9-A46E-40CB-80BA-F200A13A10A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E83DD9-A46E-40CB-80BA-F200A13A10A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E83DD9-A46E-40CB-80BA-F200A13A10A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E83DD9-A46E-40CB-80BA-F200A13A10A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E83DD9-A46E-40CB-80BA-F200A13A10A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14932334-A0CB-4E2B-9EF2-54F44972FEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14932334-A0CB-4E2B-9EF2-54F44972FEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14932334-A0CB-4E2B-9EF2-54F44972FEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14932334-A0CB-4E2B-9EF2-54F44972FEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F80670A-A274-44F6-BFB7-2542D953C397}
+	EndGlobalSection
+EndGlobal
