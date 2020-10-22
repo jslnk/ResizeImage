@@ -12,6 +12,14 @@ namespace ResizeImage
     /// </summary>
     public static class ImageResizer
     {
+        /// <summary>
+        /// Path source and destination folders.
+        /// </summary>
+        /// <param name="sourceFolder"></param>
+        /// <param name="destFolder"></param>
+        /// <param name="height"></param>
+        /// <param name="width"></param>
+        /// <param name="suffix"></param>
         public static void ResizeMultipleImagesWithSuffix(string sourceFolder, string destFolder, int height, int width, string suffix)
         {
             DirectoryInfo folderInfor = new DirectoryInfo(sourceFolder);
@@ -28,6 +36,14 @@ namespace ResizeImage
             }
         }
 
+        /// <summary>
+        /// Pass a single file name and destination folder
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="destinationFolder"></param>
+        /// <param name="height"></param>
+        /// <param name="width"></param>
+        /// <param name="suffix"></param>
         public static void ResizeSingleImageWithSuffix(string filePath, string destinationFolder, int height, int width, string suffix)
         {
 
