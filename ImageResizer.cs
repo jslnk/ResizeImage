@@ -13,7 +13,7 @@ namespace ResizeImage
     public static class ImageResizer
     {
         /// <summary>
-        /// Path source and destination folders.
+        /// Pass a source and destination folders.
         /// </summary>
         /// <param name="sourceFolder"></param>
         /// <param name="destFolder"></param>
